@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body {
+    background: black;
+}
+
+/*BARRA NAVEGACION*/
+
+nav.bg-gatos {
+    background-color: #c97900;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-nav .nav-link.active {
+    color: black;
+}
+
+.navbar-toggler {
+    border: none;
+    color: transparent;
+}
+
+nav.bg-gatos ul li a {
+    font-family: 'Coming Soon', cursive;
+    cursor: pointer;
+}
+
+nav.bg-gatos ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+nav.bg-gatos ul li.login {
+    margin-left: 500px;
+    margin-right: 20px;
+}
+
+nav.bg-gatos ul li.registro a {
+    background: black;
+    padding: 8px 6px;
+    border-radius: 16px;
+    color: #c97900;
+    border-bottom: none;
+}
+
+/*HERO*/
+
+#hero {
+    padding: 150px;
+}
+
+#hero .foto img {
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 4px #c97900;
+}
+
+#hero .info-foto {
+    padding-left: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+
+#hero .info-foto h1 {
+    font-size: 60px;
+    border-bottom: 3px solid #c97900;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+#hero .info-foto b {
+    color: #c97900;
+}
+
+#hero .info-foto h2 {
+    font-weight: 600;
+}
+
+#hero .info-foto p {
+    margin-bottom: 80px;
+}
+
+/*MAIN-NEKONOMICS*/
+
+#neko {
+    width: 100%;
+    position: relative;
+}
+
+#neko h1 {
+    color: white;
+    text-align: justify;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 700;
+    position: relative;
+}
+
+#neko h1::after {
+    width: 65%;
+    height: 2px;
+    background: #c97900;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 40%;
+}
+
+
+#neko b {
+    color: #c97900;
+}
+
+#neko h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Coming Soon', cursive;
+}
+
+#neko p {
+    color: white;
+    margin-bottom: 100px;
+    font-family: 'Coming Soon', cursive;
+}
+
+#neko a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 20px;
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+}
+
+#neko a:hover {
+    color: #c97900;
+    border: 5px dotted white;
+}
+
+#neko a::after {
+    width: 65%;
+    height: 2px;
+    background: #c97900;
+    position: absolute;
+    content: "";
+    right: 5%;
+    top: 95%;
+}
+
+/*MAIN-SERVICIOS*/
+
+#servicios {
+    width: 100%;
+    color: white;
+}
+
+#servicios h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 200px;
+    font-family: 'Coming Soon', cursive;
+}
+
+#servicios b {
+    color: #c97900;
+}
+
+#servicios .entrada p {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Coming Soon', cursive;
+}
+#servicios .tarjeta {
+   border: 5px dotted #c97900;
+   padding: 2px 10px;
+   border-radius: 20px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   font-family: 'Coming Soon', cursive;
+}
+
+#servicios .tarjeta:hover {
+    color: #c97900;
+    border: 5px solid #c97900;
+}
+
+.tarjeta img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 5px dotted #c97900;
+    padding: 5px 0;
+}
+
+.tarjeta h2  {
+    font-size: 40px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.tarjeta button {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background: transparent;
+    box-shadow: 0 1px 4px 2px #c97900;
+    border-radius: 20px;
+    transition: .4s;
+    margin-bottom: 10px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.tarjeta button:hover {
+    transform: scale(1.05);
+}
+
+
+/*MAIN-TARIFAS*/
+
+#tarifas h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 700;
+}
+
+#tarifas b {
+    color: #c97900;
+}
+
+#tarifas .hola p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-family: 'Coming Soon', cursive;
+}
+
+#tarifas .tiempo {
+    border-left: 2px solid #c97900;
+    border-bottom: 2px solid #c97900;
+    font-family: 'Coming Soon', cursive;
+    margin-bottom: 40px;
+}
+
+#tarifas .tiempo button {
+    color: #c97900;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#tarifas .tiempo p {
+    color: white;
+    margin-top: 10px;
+    position: relative;
+}
+
+#tarifas .tiempo p::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #c97900;
+    border-radius: 10px;
+    right: 50px;
+    top: 8px;
+}
+
+
+#tarifas .tiempo ul {
+    border-bottom: 2px solid #c97900;
+}
+
+#tarifas .tiempo ul li button {
+    border: 2px solid #c97900;
+    background: transparent;
+    transition: .4s;
+}
+
+#tarifas .tiempo ul li button:hover {
+    color: white;
+    background: #c97900;
+}
+
+#tarifas .plan {
+    border-left: 2px solid #c97900;
+    border-bottom: 2px solid #c97900;
+    font-family: 'Coming Soon', cursive;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.plan h2 {
+    color: #c97900;
+    font-family: 'Coming Soon', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.accordion-button {
+    color: #c97900;
+    background: transparent;
+}
+
+.accordion-button:hover {
+    background: #c97900;
+    color: white;
+}
+
+.accordion-header {
+    color: #c97900;
+}
+
+.accordion-item {
+    color: #c97900;
+    background: transparent;
+}
+ 
+.accordion-body {
+    color: white;
+}
+
+.accordion-button:not(.collapsed) { 
+    background-color: transparent; 
+    box-shadow: 0 0 0 transparent; 
+    color: #c97900;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #c97900;
+}
+
+.accordion-item:first-of-type {
+    color: #c97900;
+}
+
+
+/*MAIN-FOTOS*/
+
+#fotos h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#fotos b {
+    color: #c97900;
+}
+
+#fotos img {
+    border: 5px dotted #c97900 ;
+    padding: 200px 200px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    color: #c97900;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    nav.bg-gatos {
+        text-align: center;
+    }
+    
+    nav.bg-gatos ul li.login {
+        margin-left: 0;
+        margin-right: 0;
+        color: white;
+    }
+
+    nav.bg-gatos ul li.registro a {
+        background: none;
+        color: white;
+    }
+    
+    #neko h1::after {
+        top: 100%;
+        right: 18%;
+    }
+
+    #neko h1 {
+        text-align: center;
+    }
+    
+    #neko a::after {
+        top: 102%;
+    }
+
+    #fotos img {
+        padding: 100px 100px;
+    }
+
+}
